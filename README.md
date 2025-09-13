@@ -2,8 +2,10 @@
 
 [job-ad]: https://jobs.ashbyhq.com/incident/c6436752-7f35-4936-9cbd-f372f55e4823
 
-incident.io offers internships, placements, and graduate programmes for student engineers, 
-providing opportunities to gain experience through 3-month, 6-month, 1-year placements, or by joining as a full-time graduate.
+We're on a mission to build the single place you turn to when things go wrong. Over the past year, we’ve also built some of the most ambitious AI-native features in our space. From ways to make incident response smoother, to AI agents that investigate, explain, and even fix issues, we’re reimagining what incident management can be.
+
+incident.io is now offering internships, placements, and graduate programmes for student engineers, 
+providing you the chance to be at the forefront of innovation through 3-month, 6-month, 1-year placements, or by joining as a full-time graduate.
 
 You can apply [here][job-ad] or read about the role below.
 
