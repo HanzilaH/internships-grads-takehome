@@ -131,7 +131,7 @@ def apply_overrides(base_entries: List[Entry], overrides: List[Entry]) -> List[E
 def render():
     parser = argparse.ArgumentParser(description="Render on-call schedule with overrides.")
     parser.add_argument("--schedule", required=True, help="Path to schedule JSON file")
-    parser.add_argument("--overrides", help="Path to overrides JSON file", default=None)
+    parser.add_argument("--overrides", required=True, help="Path to overrides JSON file", default=None)
     parser.add_argument("--from", dest="from_time", required=True, help="Start time (ISO8601)")
     parser.add_argument("--until", dest="until_time", required=True, help="End time (ISO8601)")
     args = parser.parse_args()

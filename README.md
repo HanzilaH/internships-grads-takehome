@@ -86,7 +86,7 @@ The `backend.py` file sets up a simple web server to serve the React frontend (a
 python3 backend.py
 ```
 
-The server will typically run on `http://127.0.0.1:5500`.
+The server will typically run on `http://127.0.0.1:5500`, therefore go to chrome or another browser and paste this link to see the UI
 
 #### API Endpoint
   * **Endpoint**: `/`
