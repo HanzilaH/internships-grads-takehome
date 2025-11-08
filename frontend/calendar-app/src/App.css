@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f9fafb;
+}
+
+:root {
+  --sunset: #e6c79cff;
+  --vanilla: #dad39eff;
+  --tea-green: #cddfa0ff;
+  --celadon: #9ed896ff;
+  --emerald: #6fd08cff;
+  --cambridge-blue: #75b79aff;
+  --cadet-gray: #7b9ea8ff;
+  --slate-gray: #7a7b8cff;
+  --chinese-violet: #78586fff;
+}
+
+
+h2 {
+  margin: 1rem 0;
+  color: #333;
+}
+
+.calendar-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.event-list {
+  flex-basis: 30%;
+  max-width: 30%;
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: auto; 
+  height: 100vh; /* max height limited to viewport */
+}
+
+.event-list h3 {
+  margin-top: 0;
+  color: #222;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.event-item {
+  background: #f8fafc;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.event-item strong {
+  color: #007bff;
+}
+
+.event-item span {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+/* 🗓️ Calendar View: 70% width */
+.calendar {
+  flex-basis: 70%;
+  max-width: 70%;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: auto;
+  background: #f9fafb;
+}

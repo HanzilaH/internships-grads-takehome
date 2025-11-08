@@ -1,0 +1,8 @@
+{
+  "users": [
+    "alice",
+    "bob"
+  ],
+  "handover_start_at": "2025-11-07T17:00:00Z",
+  "handover_interval_days": 7
+}
